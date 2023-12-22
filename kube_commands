@@ -1,0 +1,10 @@
+kubectl apply -f service.yaml
+
+
+step to run local kube 
+
+minikube start 
+minikube tunnel
+
+
+kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml # metrics server
